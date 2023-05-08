@@ -154,4 +154,9 @@ border-radius: 10px;
         align-items: center;
         justify-content: space-around;
     }
+    .timeDuration{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
