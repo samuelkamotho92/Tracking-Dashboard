@@ -1,0 +1,127 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-color:hsl(226, 43%, 10%);
+}
+.jeremyReport{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+   grid-template-rows: auto auto;
+   gap: 10px;
+}
+.jeremyReport div{
+    font-size: 18px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    text-align: center;
+    height: auto;
+    /* background-color:  hsl(235, 46%, 20%); */
+}
+
+.divContent{
+  background-color:  hsl(235, 46%, 20%);
+  border-radius: 10px 10px 0px 0px;
+}
+.divContent:hover{
+    background-color: hsl(235, 45%, 61%);
+}
+.itemContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item-1{
+grid-row: 1/3;
+grid-column: 1/1;
+background-color:  hsl(236, 100%, 87%);
+}
+
+.item-2{
+    display: grid;
+    position: relative;
+    background-color:hsl(226, 43%, 10%);
+}
+
+.item-2 .top-banner{
+    border-radius: 10px 15px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: hsl(15, 100%, 70%);
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+}
+.title span{
+    color: white;
+}
+
+/* .item-2 .content{
+display: grid;
+border-radius: 10px;
+} */
+
+.item-3{
+    display: grid;
+    position: relative;
+    background-color:hsl(226, 43%, 10%);
+}
+
+.item-3 .top-banner{
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 10px 15px 0px 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.item-4{
+    display: grid;
+    position: relative;
+    background-color:hsl(226, 43%, 10%);
+}
+
+.item-4 .top-banner{
+    background-color:hsl(348, 100%, 68%);
+    border-radius: 10px 15px 0px 0px;
+    position: absolute;
+    width: 100%;   
+}
+.item-5{
+    display: grid;
+    position: relative;
+    background-color:hsl(226, 43%, 10%);
+}
+.item-5 .top-banner{
+    background-color:hsl(145, 58%, 55%);
+    border-radius: 10px 15px 0px 0px;
+    position: absolute;
+    width: 100%;   
+}
+.item-6{
+    display: grid;
+    position: relative;
+    background-color:hsl(226, 43%, 10%);   
+}
+
+.item-6 .top-banner{
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 10px 15px 0px 0px;
+    position: absolute;
+    width: 100%;   
+}
+
+.item-7 {
+    display: grid;
+    position: relative;
+    background-color:hsl(226, 43%, 10%);
+}
+.item-7 .top-banner{
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 10px 15px 0px 0px;
+    position: absolute;
+    width: 100%;   
+}
